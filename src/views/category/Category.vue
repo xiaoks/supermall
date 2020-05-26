@@ -3,9 +3,16 @@
 </template>
 
 <script>
-    export default {
-        name: "Category"
-    }
+
+  export default {
+    name: "Category",
+    data() {
+      return {
+        scroll: null
+      }
+    },
+
+  }
 </script>
 
 <style scoped>
